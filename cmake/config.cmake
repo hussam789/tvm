@@ -46,7 +46,7 @@
 # - ON: enable CUDA with cmake's auto search
 # - OFF: disable CUDA
 # - /path/to/cuda: use specific path to cuda toolkit
-set(USE_CUDA OFF)
+set(USE_CUDA ON)
 
 # Whether enable ROCM runtime
 #
@@ -100,7 +100,7 @@ set(USE_STACKVM_RUNTIME OFF)
 set(USE_GRAPH_RUNTIME ON)
 
 # Whether enable additional graph debug functions
-set(USE_GRAPH_RUNTIME_DEBUG OFF)
+set(USE_GRAPH_RUNTIME_DEBUG ON)
 
 # Whether enable additional vm profiler functions
 set(USE_VM_PROFILER OFF)
